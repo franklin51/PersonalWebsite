@@ -6,7 +6,7 @@ export const ArticleContentList = [
     title: "The Newest Technology On This Year 2019",
     paragraph:
       "Even the all-powerful Pointing has no control about the blind textsit is an almost",
-    src: "https://dl.acm.org/",
+    src: "",
   },
   {
     imageUrl: "url(images/image_2.jpg)",

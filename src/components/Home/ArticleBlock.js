@@ -10,13 +10,15 @@ export default function ArticleBlock({
       <div className="blog-entry ftco-animate">
         <a
           href={srcUrl}
-          className="img img-2"
+          className={`img img-2 ${srcUrl === "" ? "disable-href" : null}`}
           style={{ backgroundImage: imageUrl }}
         ></a>
         <div className="text text-2 pt-2 mt-3">
           {/* <span className="category mb-3 d-block">{label}</span> */}
           <h3 className="mb-4">
-            <a href={srcUrl}>{title}</a>
+            <a className={srcUrl === "" ? "disable-href" : ""} href={srcUrl}>
+              {title}
+            </a>
           </h3>
           <p className="mb-4">{paragraph}</p>
         </div>

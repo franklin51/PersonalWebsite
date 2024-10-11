@@ -3,6 +3,11 @@
   width: 100%;
 }
 
+.disable-href {
+  pointer-events: none;
+  cursor: default;
+}
+
 .contact-card {
   min-width: 500px;
   border-radius: 8px;
